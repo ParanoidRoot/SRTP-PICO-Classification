@@ -1,0 +1,12 @@
+,sentence,pubmed_id,content,label,labeler
+0,"1 |||  ||| 0.1 ||| OBJECTIVES The goal of this study was to determine the effects of exercise training (ET) on functional capacity and quality of life (QOL) in patients who received percutaneous transluminal coronary angioplasty (PTCA) or coronary stenting (CS), the effects on the restenosis rate and the outcome.",11401128,percutaneous transluminal coronary angioplasty (PTCA) or coronary stenting (CS),po.Procedure,zmj
+1,3 |||  ||| 0.3 ||| METHODS We studied 118 consecutive patients with coronary artery disease (mean age 57 Ϯ 10 years) who underwent PTCA or CS on one (69%) or two (31%) native epicardial coronary arteries.,11401128,118 consecutive patients,po.Size,zmj
+2,"24 |||  ||| 0.24 ||| Primary angioplasty, defined as angioplasty without thrombolytic therapy, was performed 148 Ϯ 63 min after the onset of an acute myocardial infarction (AMI) in 23 patients (11 in group T, 12 in group C).",11401128,"23 patients (11 in group T, 12 in group C)",po.Size,zmj
+3,"39 |||  ||| 0.39 ||| After a 15-min phase of stretching and calisthenics, patients pedaled on an electronically braked cycle ergometer at the target work rate for 30 min.",11401128,stretching and calisthenics,i.Procedure,zmj
+4,41 |||  ||| 0.41 ||| Control patients were recommended to perform basic daily mild physical activities but to avoid any physical training.,11401128,avoid any physical training.,i.Procedure,zmj
+5,"5 |||  ||| 0.5 ||| Group T (n ϭ 59) was exercised three times a week for six months at 60% of peak V ˙ O 2.
+",11401128,exercised three times a week,i.Procedure,zmj
+6,38 |||  ||| 0.38 ||| The program lasted six months and consisted of three exercise sessions per week at an intensity of 60% of peak oxygen uptake (V ˙ O 2 ).,11401128,at an intensity of 60% of peak oxygen uptake,i.Procedure,zmj
+7,12 |||  ||| 0.12 ||| CONCLUSIONS Moderate ET improves functional capacity and QOL after PTCA or CS.,11401128,Moderate ET improves functional capacity and QOL,o.Treatment,zmj
+8,139 ||| RESULTS ||| 1.35 ||| The progression of coronary artery disease was significantly lower in trained patients than it was in control patients at six months.,11401128,The progression significantly lower,o.Patient,zmj
+9,"7 |||  ||| 0.7 ||| RESULTS Only trained patients had significant improvements in peak V ˙ O 2 (26%, p Ͻ 0.001) and quality of life (26.8%, p ϭ 0.001 vs. C).",11401128,Only trained patients had significant improvements in peak V ˙ O 2,o.Patient,zmj

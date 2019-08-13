@@ -1,0 +1,7 @@
+,sentence,pubmed_id,content,label,labeler
+0,"26 ||| Methods ||| 5.6 ||| Patients undergoing primary isolated CABG, with or without cardiopulmonary bypass, were eligible for inclusion in the study.",21050973,undergoing primary isolated CABG,po.Disease,奉捷
+1,23 ||| Methods ||| 5.3 ||| All patients referred for isolated surgical coronary revascularization from December 2007 to December 2008 with at least 1 SVG at Fuwai Hospital were screened according to the inclusion criteria.,21050973,with at least 1 SVG,po.Disease,奉捷
+2,2 ||| Background ||| 1.1 ||| Prevalence of graft occlusion is high after CABG.,21050973,CABG,pr.Disease,奉捷
+3,1 |||  ||| 0.1 ||| Objectives We sought to evaluate the effect of aspirin plus clopidogrel versus aspirin alone on saphenous vein graft occlu-sion at 3 months after coronary artery bypass grafting (CABG).,21050973,coronary artery bypass grafting (CABG),pr.Disease,奉捷
+4,1 |||  ||| 0.1 ||| Objectives We sought to evaluate the effect of aspirin plus clopidogrel versus aspirin alone on saphenous vein graft occlu-sion at 3 months after coronary artery bypass grafting (CABG).,21050973,aspirin plus clopidogrel versus aspirin alone,i.Procedure,奉捷
+5,"19 ||| Conclusions ||| 4.6 ||| Therefore, we conducted a randomized controlled trial comparing aspirin plus clopidogrel with aspirin alone in CABG patients revascularized with at least 1 saphenous vein.",21050973,with aspirin alone,i.Procedure,奉捷
