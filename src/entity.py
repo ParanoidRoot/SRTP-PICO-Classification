@@ -1,4 +1,3 @@
-
 class PICOElement(object):
     '''在这个类中完成对PICOElement的构建.'''
 
@@ -22,7 +21,7 @@ class PICOElement(object):
         self.__file_path = file_path
         self.__sentence = self._PICOElement__parse_sentence(sentence)
         self.__pubmed_id = pubmed_id
-        self.__content = content
+        self.__content = self.__parse_sentence(content)
         self.__label = label
         self.__labeler = labeler
 

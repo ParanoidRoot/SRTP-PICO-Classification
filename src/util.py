@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from paranoid_root.entity import PICOElement
+from src.entity import PICOElement
 
 cur_dir = os.path.dirname(os.path.abspath(__file__))
 project_dir = os.path.dirname(cur_dir)
