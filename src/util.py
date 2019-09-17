@@ -88,4 +88,5 @@ def check_all_elements(ele_dir):
 
 if __name__ == '__main__':
     # 检查一下是不是所有句子都是只分到一个类别中去
-    check_all_elements(ele_dir)
+    # check_all_elements(ele_dir)
+    pass
