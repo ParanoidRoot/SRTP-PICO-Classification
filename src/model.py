@@ -9,11 +9,11 @@ if __name__ == '__main__':
     index = random.randint(1, element_number)
     element = pico_elements[index]
     print(index, '\r\n', element)
-    print('这里有点慢...稍等一会儿')
+    print('这里有点慢...稍等一会儿...')
     pre_model = KeyedVectors.load_word2vec_format(
         pre_model_path, binary=True
     )
-    print(pre_model['medicine'])
-    print(type(pre_model['medicine']))
+    print(pre_model['medicine'])  # 输入一个词, 输出一个矩阵
+    print(type(pre_model['medicine']))  # 输出矩阵为200为的array
     print(pre_model['hello'].shape)
-    print(pre_model.similarity("medicine", "medical"))
+    print(pre_model.similarity("medicine", "medical"))  # 比较两个词的相似度
