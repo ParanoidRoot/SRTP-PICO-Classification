@@ -4,3 +4,5 @@ data/preModel/
 paranoid_root/bert/pretrained/
 paranoid_root/bert/models/
 paranoid_root/bert/.vscode/
+.diea
+__pycache__

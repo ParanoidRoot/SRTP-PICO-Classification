@@ -1,4 +1,4 @@
-from src.util import get_all_elements, ele_dir, pre_model_path
+from util import get_all_elements, ele_dir, pre_model_path
 from gensim.models.keyedvectors import KeyedVectors
 import random
 
