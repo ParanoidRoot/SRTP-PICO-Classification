@@ -68,3 +68,11 @@ class PICOElement(object):
             'labeler = %s\r\n' % self.labeler
         )
         return ans
+
+    @property
+    def fine_grained_label(self):
+        ans = (
+            self.label.lower().replace(' ', '').
+            replace('diagnositc', 'diagnostic').replace('.', '')
+        )
+        return ans

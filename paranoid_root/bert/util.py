@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 from entity import PICOElement
+import numpy as np
+import matplotlib.pyplot as plt
 
 
 class __CSVReader(object):
@@ -164,15 +166,90 @@ class FastBertCSVWriter(object):
         test_set_dataframe.to_csv('val_set_%s.csv' % tag)
 
 
-if __name__ == '__main__':
-    FastBertCSVWriter.write_to_csvs(
-        __CSVReader.get_csv_paths(r'F:\PythonProjects\TestFastBert\PICOElement'),
-        1.0,
-        tag='2'
+def fine_grained_data_preparation():
+    '''在这个方法中完成对细粒度的分类的数据准备工作.'''
+    paths = __CSVReader.get_csv_paths(
+        r'F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement'
     )
-    # FastBertCSVWriter.count_seq_len(
-    #     __CSVReader.get_csv_paths(
-    #         r'F:\PythonProjects\TestFastBert\PICOElement'
-    #     )
+    all_elements = get_all_elements(
+        r'F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement'
+    )
+    labels_dict = dict()
+    for element in all_elements:
+        if element.fine_grained_label not in labels_dict.keys():
+            labels_dict[element.fine_grained_label] = []
+    labels_dict['content'] = []
+    labels_dict['file_path'] = []
+    for path in paths:
+        elements = get_elements_by_one_csv_path(path)
+        current_csv_contents = dict()
+        for element in elements:
+            current_content = element.content
+            current_label = element.fine_grained_label
+            current_file_path = element.file_path
+            if current_content not in current_csv_contents.keys():
+                current_csv_contents[current_content] = (
+                    len(labels_dict['content'])
+                )
+                for key in labels_dict.keys():
+                    if key == 'content':
+                        labels_dict[key].append(current_content)
+                    elif key == current_label:
+                        labels_dict[key].append(1)
+                    elif key == 'file_path':
+                        labels_dict[key].append(current_file_path)
+                    else:
+                        labels_dict[key].append(0)
+            else:
+                # 当前的短语已经出现过了
+                index = current_csv_contents[current_content]
+                labels_dict[current_label][index] = 1
+
+
+def parse_fine_grained_data():
+    '''分析细粒度的分类.'''
+    original_data = pd.read_csv('./data/fine_grained/train.csv')
+    # sample = original_data.sample(frac=0.2, random_state=None)
+    # test = original_data.sample(frac=1.0, random_state=None)
+    # sample.to_csv('./data/fine_grained/val.csv')
+    # test.to_csv('./data/fine_grained/test.csv')
+    lengths = []
+    for text in original_data['text']:
+        lengths.append(FastBertCSVWriter.count_word_num_of_a_string(text))
+    lengths = np.array(lengths)
+
+    def get_overlap_rate(_lengths, target_len):
+        temp = _lengths.copy()
+        temp[_lengths < target_len] = 1
+        temp[_lengths >= target_len] = 0
+        return np.sum(temp) / temp.shape[0]
+
+    xs = np.array(list(range(5, 26)))
+    ys = []
+    for target_len in xs:
+        overlap_rate = get_overlap_rate(lengths, target_len)
+        ys.append(overlap_rate)
+    ys = np.array(ys)
+    plt.figure()
+    plt.xlabel('length')
+    plt.ylabel('overlap rate')
+    plt.title('fine grained labels')
+    plt.bar(xs, ys, color='green')
+    plt.savefig('./ans/fine_grained/overlap_rates')
+    plt.close()
+
+
+if __name__ == '__main__':
+    # FastBertCSVWriter.write_to_csvs(
+    #     __CSVReader.get_csv_paths(r'F:\PythonProjects\TestFastBert\PICOElement'),
+    #     1.0,
+    #     tag='2'
     # )
-    print('hello world')
+    # # FastBertCSVWriter.count_seq_len(
+    # #     __CSVReader.get_csv_paths(
+    # #         r'F:\PythonProjects\TestFastBert\PICOElement'
+    # #     )
+    # # )
+    # print('hello world')
+    # fine_grained_data_preparation()
+    parse_fine_grained_data()
