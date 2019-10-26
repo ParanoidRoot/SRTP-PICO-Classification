@@ -1,0 +1,363 @@
+,posize,podisease,iprocedure,iss,opatient,otreatment,prdisease,pogender,idiagnostic,idiagnostictest,poage,pophyconditon,idisease,prss,poss,potreatment,poprocedure,poclinical,prbehavior,pomedhistory,text,file_path
+44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a diagnosis of labour was made or the cervical bishop s score was 8 or more,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11281461_element.csv
+371,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,receive either oral or vaginal misoprostol or dinoprostone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12830602_element.csv
+114,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,blinded study medication,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11551875_element.csv
+1412,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,one year follow up,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20500832_element.csv
+1104,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ten of these women received tocolysis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18165400_element.csv
+883,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,were randomly allocated to receive intracoronary autologous bmt n 10 or bone marrow supernatant controls n 10,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16775089_element.csv
+1717,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,excluded patients with positive skin test for penicillin,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+1715,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,excluded patients with major surgical procedure in the previous 3 months,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+1331,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,leading to a better perfusion and function of left ventricle after ami and may diminish its postmyocardial remodelling,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20022872_element.csv
+979,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,physical work capacity increase,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17076222_element.csv
+391,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,presenting with prom diagnosed by at least two of the following 1 a speculum examination with aseptic technique revealing pooling of amniotic fluid in the vagina 2 a nitrazine test of vaginal fluid positive with a ph 6 5 or 3 a fern pattern present arborization of vaginal fluid by microscopic examination,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14526301_element.csv
+1666,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with peripheral vascular diseases,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24093324_element.csv
+1251,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,improved lvef by 3 5,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19508995_element.csv
+1736,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,receive clopidogrel 75 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24666617_element.csv
+1393,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,receiving lapatinib monotherapy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20124187_element.csv
+523,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a similar reduction was seen with lisinopril compared with amlodipine in allhat,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15207952_element.csv
+1531,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,no significant differences,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22194152_element.csv
+212,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the proportion of patients taking other cardiovascular drugs during the study such as blockers calcium antagonists nitrates angiotensin converting enzyme inhibitors and diuretics was similar between groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12076217_element.csv
+1420,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,analysis using a strict protocol for performance of fetal blood sampling,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20502287_element.csv
+1576,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,force titrated to valsartan 320 mg and amlodipine 10 mg until the end of the study,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23126349_element.csv
+1323,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the procedure was considered safe since no cell transferrelated complications occurred,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19936457_element.csv
+1459,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7 43 16 patients in the control group compared with 16 47 34 patients in the bmc group improved their myocardial viability,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21127322_element.csv
+693,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,nondiabetic renal disease and a specific indication for or contraindication to ace inhibitor therapy or non dihydropyridine calcium channel blocker therapy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15736290_element.csv
+890,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,compared the effects of gabapentin on arterial pressure and heart rate at induction of anaesthesia and tracheal intubation in a randomized double blind study,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16805934_element.csv
+1472,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,at 4 months 38 6 24 7 of the dysfunctional segments showed improved segmental wall thickening in patients treated with mononuclear bm cells,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21148540_element.csv
+1143,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,heart disease,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18513526_element.csv
+497,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,doses were doubled if blood pressure exceeded 150 mm hg systolic or 90 mm hg diastolic,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15184349_element.csv
+439,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,bishop score f5,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14643034_element.csv
+976,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,beta blocker nitrate ace inhibitors and acetylsalicylic acid,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17076222_element.csv
+812,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,to have a longer time between induction and birth,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16455695_element.csv
+1489,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,letrozole plus trastuzumab,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21862331_element.csv
+1014,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fmd corr improved by antihypertensive treatment without a concomitant improvement in small artery endothelial function,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17612909_element.csv
+1660,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,men,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24093324_element.csv
+1311,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a significant improvement in systolic myocardial velocities of the basal segments of lv in the bmsc group but not in the control group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19892047_element.csv
+1132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,with estimated creatinine clearance of 20 to 60 ml min 1 73 m 2,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18405787_element.csv
+247,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43 had an anterior ami and 50 were treated with fibrinolytics in the acute phase,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12473255_element.csv
+1296,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,forty patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+1029,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84 days,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17786067_element.csv
+1102,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,and admittance to the neonatal unit,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18165400_element.csv
+347,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,hrql improved significantly over the entire study,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12707240_element.csv
+75,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,only trained patients had significant improvements in peak v o 2,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11401128_element.csv
+1297,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,highintensity interval training program,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+1260,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,there were no major differences between the two groups in terms of patient characteristics,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19508995_element.csv
+1267,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,to receive either bisoprolol 5 mg or losartan 50 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19663521_element.csv
+688,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,oral misoprostol is as effective as intracervical dinopro stone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15733875_element.csv
+1722,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,more patients in control group 5 36 13 9 were excluded,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+1268,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,randomized in a double blind prospective study to receive either bisoprolol 5 mg or losartan 50 mg administered once daily for 1 year,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19663521_element.csv
+999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,due to occlusion of the proximal left anterior descending artery lad who had undergone successful primary stented pci,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17572255_element.csv
+797,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,harvested bone marrow,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16413875_element.csv
+505,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,advised to restrict their salt intake low salt diet,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+729,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,not taking hypocholesterolemic drugs,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15897788_element.csv
+139,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,median time to delivery was shorter in those women who were receiving vaginal misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11641676_element.csv
+1703,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,were admitted to hospital 24 hr after the onset of chest pain,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+514,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,different intervention effects of calcium channel antagonists and ace inhibitors in various parts of the arterial tree were present with differential effects of treatment on arterial segments that are not susceptible to atherosclerosis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+174,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,little effect on the estimate of the benefit associated with losartan,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11937178_element.csv
+658,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,randomized double blind double dummy design,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+656,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,pregnancy or planning pregnancy a history of myocardial infarction angina pectoris coronary artery bypass surgery angioplasty stroke congestive heart failure malignancy or other serious illnesses serum creatinine 4140 mmol l body mass index 435 kg m 2 alcohol and or drug abuse or participation in other clinical trials,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+1103,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a basal unit of 20 ml misoprostol solution 1 mcg ml,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18165400_element.csv
+1610,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,infusion rate,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+324,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,blood pressure controlled to the same blood pressure goal of less than 135 85 mm hg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12667024_element.csv
+1403,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received anticoagulation therapy with warfarin for 6 months,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20308616_element.csv
+620,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,63 men 11 women mean age 55 7 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15459609_element.csv
+1373,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,receive blinded treatment with clopidogrel 75 mg day,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+894,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ephedrine,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16805934_element.csv
+916,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received 25 g misoprostol 1 4 of a double scored 100 g tablet every 3 h without concomitant food to a maximum of six doses,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16866794_element.csv
+323,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,randomly assigned centrally by computer to receive treatment with irbesartan 300 mg d avapro bristol myers squibb princeton new jersey amlodipine 10 mg d norvasc pfizer new york or matched placebo,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12667024_element.csv
+1415,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fluvastatin therapy started at admission does not influence serum markers of inflammation and plaque instability however it is safe and may improve clinical outcomes in these patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20500832_element.csv
+657,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a total of 70 hypertensive,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+604,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received 100 mg of misoprostol orally or 50 mg of misoprostol vaginally every 6 h,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15327448_element.csv
+1274,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bisoprolol is more effective in bp control,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19663521_element.csv
+201,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,delivery time was similar,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12052597_element.csv
+1510,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,manual and the introductory session,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21974926_element.csv
+1711,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,excluded patients with history of hematologic disease and malignancy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+884,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,bone marrow was harvested,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16775089_element.csv
+594,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,all women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15327448_element.csv
+1085,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ami who had plasma total cholesterol levels of 200 250 mg dl and triglyceride levels 300 mg dl,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18159093_element.csv
+1021,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fetal distress or induction failure,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17722318_element.csv
+722,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,baseline t c levels were comparable in both groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15864233_element.csv
+871,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,bmmc were isolated by gradient centrifugation,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16758644_element.csv
+848,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,ages 18 to 80 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16580575_element.csv
+1395,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the incidence of rash was higher,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20124187_element.csv
+632,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,achieved adequate glycemic control glycosylated hemoglobin hbalc 7 0 were eligible for inclusion in the study,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15476904_element.csv
+360,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,none of the women had fetal distress,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12755528_element.csv
+1202,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,reassigned 1 1 ratio to aliskiren 300 mg or hydrochlorothiazide 25 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19139391_element.csv
+414,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,no difference in the proportion of women who underwent cesarean delivery,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14586349_element.csv
+440,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,200 mg single dose oral misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14643034_element.csv
+52,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,more women were delivered within 24 hour,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11281461_element.csv
+1443,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,peripheral arterial disease pad,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20678878_element.csv
+1696,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,mode of delivery,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431667_element.csv
+1180,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received premedication with midazolam,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18840107_element.csv
+910,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,200 women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16866794_element.csv
+1186,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,thrombolytic therapy given within 12 h after the onset of symptoms,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18845667_element.csv
+164,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,no fetal distress,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11814497_element.csv
+1417,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,18 years or older,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20502287_element.csv
+1624,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,patients underwent echocardiography consecutively before the procedure and at 6 12 and 24 months follow up,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23651816_element.csv
+1286,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received anastrozole 1 mg d orally,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19786670_element.csv
+1776,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,middle cerebral artery mca,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+1738,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,aspirin monotherapy 300 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24666617_element.csv
+934,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,the efficacy of two different dosages of oral misoprostol 50 and 100 mg with control in medical induction of labor for patients with prelabor rupture of membranes prom at term,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16929421_element.csv
+985,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,serum potassium levels decreased with increasing doses of hct maximal mean change of 0 32 meq l with hct 25 mg and increased with higher doses of er metoprolol so that the combination reflected the sum of the effects mean change of 0 15 meq l with ermetoprolol hct 200 25 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17161766_element.csv
+686,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients received either dinoprostone prepidil gelr pharmacia south africa 0 5 mg intracervically 6 h inerval or misoprostol 50 ag per os 4 h interval,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15733875_element.csv
+415,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,significant difference in neonatal antibiotic administration,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14586349_element.csv
+880,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ensures penetration and fixation of cells in the myocardium without causing additional damage and provoking malignant arrhythmias,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16758644_element.csv
+1002,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,intracoronary infusion of bmncs in the infarct related coronary artery,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17572255_element.csv
+1757,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4161 participants,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24881993_element.csv
+1441,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,426 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20678878_element.csv
+530,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,were randomized to receive bmscs n 34 or saline pci only group n 35 as the control arm,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15219514_element.csv
+921,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,whether these treatments have different effects on cardiac and large artery remodelling,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16888272_element.csv
+292,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,more effective for labor induction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12512928_element.csv
+503,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,aged 60 75 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+1079,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the maximum doses were 5 mg day for ramipril and 100 mg day for metoprolol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17984104_element.csv
+1425,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,primary outcome metabolic acidosis based on ph and bdecf was lower in the index group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20502287_element.csv
+118,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,lv mass index was reduced similarly by the two treatment regimens,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11551875_element.csv
+717,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90 consecutive patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15864233_element.csv
+556,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,seventy term pregnant women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15325864_element.csv
+931,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with atenolol resulted in a lesser reduction in left ventricular mass index a decrease in lumen diameter and a reduction in carotid blood flow,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16888272_element.csv
+819,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,have two major or three minor or one major and two minor atherothrombotic risk factors,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16531616_element.csv
+852,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients assigned to er felodipine 20 mg and or er metoprolol succinate 400 mg received half doses for 1 week before escalation to the full dose,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16580575_element.csv
+344,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,were invited to join a monthly familyoriented support group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12707240_element.csv
+355,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,randomized to receive either intravaginal misoprostol 50 m g every 4 h or oral misoprostol 50 m g every 4 h,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12755528_element.csv
+410,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received intravenous antibiotics,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14586349_element.csv
+315,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a longer delay to delivery with misoprostol than with dinoprostone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12548212_element.csv
+1077,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the analysis was based on the 37 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17984104_element.csv
+1357,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88 9 cm 35 in for women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+811,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,to have infusion of oxytocin,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16455695_element.csv
+651,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,to investigate the effects of aggressive antihypertensive treatment based on hydrochlorothiazide candesartan or lisinopril on left ventricular mass and arterial stiffness as primary outcomes and on other cardiovascular risk factors,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+1467,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,85 of the patients were men,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21148540_element.csv
+1608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,pregnant women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+1222,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,has improved the prognosis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19289619_element.csv
+504,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,newly diagnosed hypertensive,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,pravastatin was effective in reducing cardiovascular events and in slowing the progression of atherosclerosis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11113401_element.csv
+1295,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,stable n 36 or unstable angina n 4,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+1781,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+471,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,favourable diet exercise and smoking cessation to show an additional reduction in the five year risk for chd in males,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14671465_element.csv
+1367,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,metabolic syndrome,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+621,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,first myocardial infarction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15459609_element.csv
+981,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,18 to 80 years of age,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17161766_element.csv
+492,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,with essential hypertension,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15184349_element.csv
+627,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,performed with an acuson 128 imaging system,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15459609_element.csv
+573,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,60 patients 85 7 were men,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15326073_element.csv
+245,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a total of 540 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12473255_element.csv
+356,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received 50 m g of misoprostol orally or vaginally every 4 h,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12755528_element.csv
+1148,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6 week intensive ccr program,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18513526_element.csv
+1633,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with obstetric or medical indications,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23756271_element.csv
+1293,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,myocardial infarction mi or cabg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+755,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,have crossed over to receive trastuzumab,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15911866_element.csv
+123,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,695,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11563466_element.csv
+1110,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,residual myocardial ischemia severe ventricular arrhythmias atrio ventricular block valvular disease requiring surgery pericarditis and severe renal dysfunction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18277196_element.csv
+486,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,abdominal delivery for failure of cervical ripening with the inducing agents,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15104606_element.csv
+64,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the elevation of plasma et 1 in response to puva therapy is accompanied by generalized hyperpigmentation and repigmentation of vitiligo,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11393383_element.csv
+1571,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,bp above the safety limit of sbp,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23126349_element.csv
+457,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,compare outcomes in older hypertensive patients with cad treated with a calcium antagonist strategy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14657064_element.csv
+120,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a lack of difference in lv mass change between enalapril or nifedipine treatment arms and revealed trends toward greater lv mass reduction with supplemental hydrochlorothiazide mean difference 4 g m,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11551875_element.csv
+1292,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,are consistent with,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19786670_element.csv
+401,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,more women in the oxytocin group were delivered vaginally in 12 hours but there was no significant difference in the number delivered vaginally within 24 hours,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14526301_element.csv
+1374,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,plus aspirin 81 mg day,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+1109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,eighty one consecutive patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18277196_element.csv
+65,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,it is likely that the decline in et 1 is the result,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11393383_element.csv
+512,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,calcium channel blocker verapamil reduced carotid lesions after 4 years of treatment,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+1806,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,was superior to aspirin alone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+972,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,physical training at the post hospital stage of rehabilitation after acute coronary incidents,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17076222_element.csv
+1290,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,without trastuzumab,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19786670_element.csv
+1080,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,after the washout period patients received either 2 5 mg ramipril or 50 mg metoprolol per day,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17984104_element.csv
+210,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3 to 4 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12076217_element.csv
+1611,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,misoprostol group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+517,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,serum creatinine between 150 and 265 mol l if 265 mol l patients were judged to have severe renal failure and were excluded,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15207952_element.csv
+836,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,there was no difference between the groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16553653_element.csv
+1124,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,exercise at home on a bicycle ergometer,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18372218_element.csv
+460,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,atenolol plus hydrochlorothiazide strategy ncas group had better outcomes than those randomized to the verapamil sr plus trandolapril strategy cas group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14657064_element.csv
+918,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,parity influenced the success of labour induction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16866794_element.csv
+783,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,cardiac rehabilitation after an acute coronary syndrome,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16274344_element.csv
+1047,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,crystalloid infusion was started through a 20 gauge iv cannula inserted in an appropriate antecubital vein,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17898401_element.csv
+508,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,after 6 weeks of active treatment the dosage was increased to 10 mg amlodipine and 20 mg lisinopril,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+1518,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,serious and unstable mental incapacities or major depression,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22177854_element.csv
+498,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,consistent reductions of voltage criteria for lvh at 6 months and even hypertension,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15184349_element.csv
+703,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with trandolapril plus verapamil or trandolapril alone prevented the onset of microalbuminuria,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15736290_element.csv
+205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,stable or unstable angina or silent ischemia following successful completion of their first pci,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12076217_element.csv
+1059,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the increased confidence in erection among treated patients was another aspect of the reduction in stress and performance anxiety,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17925627_element.csv
+1670,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,the induction of labor in full term live pregnancies,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24112746_element.csv
+674,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received oral doses of the study medication every 3 days for a maximum of three courses over 9 days,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15694083_element.csv
+899,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,relapsed 12 months,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16850247_element.csv
+1383,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,some inflammatory markers are more pronounced,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+143,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,pregnancy termination,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11759980_element.csv
+472,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,reduced the intake of saturated fat sugar and cholesterol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14671465_element.csv
+1595,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,antithrombotics and lipid lowering drugs,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23253876_element.csv
+853,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fatigue in patients receiving high dose 400 mg er metoprolol succinate in combination with medium to high dose 10 and 20 mg er felodipine was relatively common 20 for 10 400 mg and 18 for 20 400 mg and 2 to 9 for the other treatment groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16580575_element.csv
+846,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,no deaths or heart failure,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16563893_element.csv
+1600,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+866,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,early lipid lowering therapy with statins decreases recurrent cardiovascular events in particular congestive heart failure,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16616020_element.csv
+403,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,determine whether induction of labor with oral misoprostol will result in fewer cesarean deliveries,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14586349_element.csv
+442,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,all women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14643034_element.csv
+1133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,exclusion criteria included nephrotic proteinuria secondary or malignant hypertension diastolic bp dbp 120 mm hg a major cardiovascular event within 3 months angina pectoris congestive heart disease new york heart association class ii iv uncontrolled arrhythmias ii iii degree atrioventricular block need for steroids nonsteroidal anti inflammatory or cytotoxic drugs women of childbearing potential not using appropriate contraception or any disease that could limit the ability of the patient to comply with the protocol requirements,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18405787_element.csv
+1630,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,228 pregnant women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23756271_element.csv
+527,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,age 70 years old,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15219514_element.csv
+1305,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients with a first anterior wall stemi,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19892047_element.csv
+974,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,beta blocker acetylsalicylic acid or other antithrombotic drug as well as nitrate and ace inhibitor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17076222_element.csv
+1529,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,took place weekly or bi weekly,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22194152_element.csv
+1612,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a tablet of 200 g was dissolved in 200 cc of water,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+169,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,daily losartan based or atenolol based antihypertensive treatment for at least 4 years and until 1040 patients had a primary cardiovascular event,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11937178_element.csv
+434,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,attenuated aldosterone suppression in patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14639093_element.csv
+572,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,mean patient age was 61 9 10 6 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15326073_element.csv
+1614,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,oral misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23412004_element.csv
+305,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,increased after 6 months of cr,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12520156_element.csv
+260,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40 0 n 4645 44 0 n 3017 and 43 8 n 2764 of participants assigned to chlorthalidone amlodipine and lisinopril,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12479763_element.csv
+1650,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,proportions were similar between groups for women with indications for induction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23999422_element.csv
+1309,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,were randomly assigned to the treatment group bmsc group or the control group in a 2 1 ratio,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19892047_element.csv
+1325,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,age between 35 and 70,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20022872_element.csv
+1013,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,dependent on blood flow velocity in a non linear fashion and is impaired only at high hyperemic flow velocities in hypertensive patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17612909_element.csv
+713,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,stepwise oral misoprostol 50 mg followed by 100 mg appears to be as effective as vaginal misoprostol 25 mg for cervical ripening with a low incidence of hyperstimulation no increase in side effects a high rate of patient satisfaction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15746667_element.csv
+802,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,741 women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16455695_element.csv
+650,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,effects of aggressive antihyperten sive therapy based on hydrochlorothiazide candesartan or lisinopril on urinary albumin excretion endothelial function and inflammatory activity in hypertensive type ii diabetic individuals,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+1248,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,general exclusion criteria were previous mi cardiomyopathy atrial fibrillation or flutter previous heart surgery severe valvular heart disease disease of the haematopoietic system nyha functional class iv heart failure at baseline severe renal lung and liver disease or cancer significant coronary lesion in one or more major coronary vessels intracardiac thrombus and bone marrow disease,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19508995_element.csv
+847,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ami appears to be safe in patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16563893_element.csv
+284,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,between 34 and 42 weeks of gestation,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12512928_element.csv
+699,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,blood glucose serum potassium sodium urea and creatinine levels were measured,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15736290_element.csv
+1152,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,did not differ significantly,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18513526_element.csv
+1718,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,excluded patients with positive result for viral markers human immunodeficiency virus hiv hepatitis b virus hbv hepatitis c virus hcv and venereal disease research laboratory vdrl test,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+1594,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23253876_element.csv
+1498,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21959071_element.csv
+1338,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,examine whether intracoronary injection of autologous mononuclear bmc results in an improvement in global lv function assessed by 2d echocardiography and resting and stress nuclear scintigraphy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20042424_element.csv
+1012,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,highresolution ultrasound acuson 128xp 10 with a 7 0 mhz linear array transducer mountain view california,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17612909_element.csv
+546,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88 44 4,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15284771_element.csv
+163,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,twice as many women randomized into the dinoprostone group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11814497_element.csv
+345,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a wristwatch digital pulse monitor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12707240_element.csv
+352,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,one hundred and six women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12755528_element.csv
+1647,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received a median of 9 range 2e11 doses median dose 340 mg range 40e460 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23999422_element.csv
+1179,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,eceived oral gabapentin 800 mgor oral placebo capsules,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18840107_element.csv
+692,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,with a glycosylated hemoglobin level of 11 percent or greate,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15736290_element.csv
+529,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,were random ized to receive intracoronary injection of autologous bone marrow mesenchymal stem cell or standard saline,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15219514_element.csv
+383,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,adult,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12869172_element.csv
+1369,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,receive clopidogrel 75 mg day,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+1676,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,intermittent fetal auscultation or intrapartum cardiotocography,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24112746_element.csv
+829,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1483 women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16553653_element.csv
+1155,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,compared the effect of a calcium channel blocker ccb based regimen and an angiotensin converting enzyme inhibitor acei based,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18622251_element.csv
+23,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the vitamin c tablet was nearly identical in appearance with the misoprostol table,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11226441_element.csv
+307,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,202 women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12548212_element.csv
+1172,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,aerobic exercise twice weekly 30 min,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18654005_element.csv
+350,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12755528_element.csv
+1651,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the difference was not statistically significant,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23999422_element.csv
+1123,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,endothelial dysfunction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18372218_element.csv
+810,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,to require vaginal dinoprostone gel,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16455695_element.csv
+1265,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,40 males 32 females,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19663521_element.csv
+1642,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23999422_element.csv
+1785,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,were treated using clopidogrel 75 mg plus aspirin,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+763,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100 mg oral misoprostol every 4 h,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15951101_element.csv
+944,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,40 to 75 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16990383_element.csv
+747,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,at least one bidimensionally measurable lesion,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15911866_element.csv
+1807,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,were all superior to aspirin alone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+868,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients with acute myocardial infarction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16758644_element.csv
+643,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,269 chinese patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15605326_element.csv
+1801,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,aspirin alone vs copidogrel 50 mg plus aspirin,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\28072691_element.csv
+283,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,100 m g oral misoprostol for induction of labor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12512928_element.csv
+417,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,the technique used for maintaining hemodynamic stability during general anesthesia can influence recovery after ambulatory surgery,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14633533_element.csv
+535,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,with indications for labor induction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15284771_element.csv
+1051,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,gabapentin and dexamethasone administered together an hour before varicocele operation result in less laryngeal and tracheal intubation response better postoperative analgesia and less postoperative nausea and vomiting than the individual administration of each drug,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17898401_element.csv
+1043,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,reduction in the rate of operative delivery for fetal distress in the stan group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17826428_element.csv
+54,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,assess endothelin 1 et 1 a potent melanocyte mitogen,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11393383_element.csv
+379,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,more primiparous women in the foley catheter misoprostol group 44 compared with the misoprostol group 37 and the dinoprostone group 36,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12830603_element.csv
+1560,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the daily dose of clopidogrel 75 mg plus aspirin 100 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22942294_element.csv
+1072,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,significant risk reduction of 34,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17931979_element.csv
+146,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,women,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11759980_element.csv
+1371,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,placebo plus aspirin 81 mg day,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+1690,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,primigravida,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431667_element.csv
+1586,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the wmai decreased to 36 00 3 86 and 34 40 4 46 respectively in the bone marrow treated and control groups after 6 months,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23205050_element.csv
+760,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with premature rupture of membranes prom,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15951101_element.csv
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70 patients group a and 56 patients group b,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11113401_element.csv
+1027,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,comparable in both groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17722318_element.csv
+1361,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,18 years of age,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+342,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,middle aged 45 to 65 years old 66 to 75 years and very old 75 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12707240_element.csv
+289,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,oxytocin requirement and spontaneous rupture,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12512928_element.csv
+121,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,effects of titrated oral misoprostol solution compared with vaginal dinoprostone,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11563466_element.csv
+1351,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,triglycerides 150 mg dl,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+1440,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,peripheral arterial disease caspar,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20678878_element.csv
+1454,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21127322_element.csv
+1365,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cardiovascular intervention 6 months earlier,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+422,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,received normal saline 5 ml and 1 ml,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14633533_element.csv
+1762,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,doses were doubled at the beginning of week 5,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24881993_element.csv
+1401,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,furosemide dose was decreased,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20308616_element.csv
+291,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,was very effective,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12512928_element.csv
+21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the women received one of the tablets and both groups received again the same drug as before misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11226441_element.csv
+1300,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,is the strongest independent predictor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+1656,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24093324_element.csv
+1380,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cardiac palpitations,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+1637,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,took 50 g misoprostol orally two 25 g tablets or had one 25 g tablet of misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23756271_element.csv
+1256,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,did not undergo bone marrow aspiration,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19508995_element.csv
+1345,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,there were no significant differences between the bone marrow treated bm and control c groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20042424_element.csv
+1204,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,titrated to 10 mg,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19139391_element.csv
+919,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,as the number of doses of misoprostol increased the proportion of women needing oxytocin augmentation at a later interval 6 h increased,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16866794_element.csv
+28,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,increased patient satisfaction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11226441_element.csv
+1318,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,to carry out an echocardiographic analysis of the systolic function of patients with acute myocardial infarction after autologous mononuclear bone marrow cell transplantation ambmct as performed via the intracoronary and intravenous routes,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19936457_element.csv
+963,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,global lvef increased from a mean of 46 9 10 4 at baseline to 49 9 13 0 at 4 months in the placebo group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16990384_element.csv
+506,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients were allocated randomly to groups to receive amlodipine 5 10 mg or lisinopril 10 20 mg for 2 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15201546_element.csv
+1684,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44 47 8 delivered within 24 hours in the oral group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24112746_element.csv
+1523,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the experimental group had greater improvement,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22177854_element.csv
+1566,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,investigated the difference between an angiotensin receptor blocker and a calcium channel blocker in reducing arterial stiffness,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23126349_element.csv
+1577,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,with a slightly greater decrease in the valsartan group compared with the amlodipine group,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23126349_element.csv
+6,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the occurrence and extent of decreases in mld are lower with intensive therapy c compared with standard care d,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11113401_element.csv
+1768,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,enrollment and care of at least 50 patients monitored with fetal ecg st segment analysis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\26267623_element.csv
+1057,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,educate the patients about the issues related to sexual activity in general,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17925627_element.csv
+519,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients already receiving antihypertensive treatment discontinued taking previous drugs and were directly rolled over to one of the two value arms starting with either valsartan 80 mg or amlodipine 5 mg without a placebo run in period,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15207952_element.csv
+1507,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,myocardial infarction,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21974926_element.csv
+1546,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,assigned 378 mild hypertensive outpatients in sinus rhythm,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22522403_element.csv
+321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,type 2 diabetic nephropathy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12667024_element.csv
+792,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,excluded patients who presented within 2 h of symptom onset,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16413875_element.csv
+1652,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the induction success was similar,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23999422_element.csv
+173,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a follow up clinic visit or at least a vital status check within 6 weeks,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11937178_element.csv
+155,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,to evaluate the efficacy of oral and vaginal misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11814497_element.csv
+886,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,does not increase the risk of adverse clinical events,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16775089_element.csv
+1236,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,randomly assigned to receive either a 4 hourly oral dose of 50 g of misoprostol up to a maximum of 3 doses or 2 applications of intracervical pge2 gel at a 6 hour interval,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19375704_element.csv
+776,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,aged 40 79 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16154016_element.csv
+22,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,an initial continuous ctg for 1 h was recorded followed by intermittent ctg or continuous ctg once in active labor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11226441_element.csv
+857,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,patients meeting bp criteria were randomized to one of the 16 treatment groups,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16580575_element.csv
+184,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,16 women in the low dose group who did not respond to the misoprostol,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11952465_element.csv
+1423,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a scalp electrode was applied to the fetal head and connected to a conventional fetal heart rate monitor,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20502287_element.csv
+137,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2 packages of identically appearing pills 1 labeled oral medication either placebo or misoprostol 50 g and 1 labeled vaginal medication either placebo or misoprostol 50 g,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11641676_element.csv
+1209,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the tolerability profile of the aliskiren amlodipine combination which is as important as efficacy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19139391_element.csv
+479,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,a diagnosis of labour,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15104606_element.csv
+59,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,as controls,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11393383_element.csv
+1596,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,risk factor intervention,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23253876_element.csv
+1513,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,achieve a better improvement,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21974926_element.csv
+462,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the verapamil trandolapril based strategy was as clinically effective as the atenolol hydrochlorothiazide based strategy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14657064_element.csv
+966,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the post hoc combined clinical end point of death recurrence of myocardial infarction and rehospitalization for heart failure occurred less frequently,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16990384_element.csv
+1382,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,spinal stenosis,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20069077_element.csv
+9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,exclusion criteria included previous uterine scar oligohydramnios amniotic uid index 2 5 th centile 19 intrauterine growth restriction estimated fetal weight 10 th centile 20 prelabour rupture of membranes multifetal pregnancy and cervix favourable for amniotomy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11212999_element.csv
+1317,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,treatment of patients with heart failure,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19936457_element.csv
+1462,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,including cv risk factors time to pci and the presence of microvascular obstruction on mri,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21127322_element.csv
+1298,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,riding an ergometric bicycle or were running,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\19853690_element.csv
+719,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44 patients received atorvastatin 40 mg daily and 46 patients placebo,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15864233_element.csv
+154,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68 10 women failed to abort,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11759980_element.csv
+1626,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,a 17 segment echocardiogram was performed to measure,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23651816_element.csv
+385,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,group a iabc started prior to induction of anesthesia n 15 group b no preoperative iabc n 15,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12869172_element.csv
+465,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a total of 197 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14671465_element.csv
+1758,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4 weeks of double blind treatment,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24881993_element.csv
+732,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96 hypertensive diabetic patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15897788_element.csv
+1127,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,resistance exercise,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\18372218_element.csv
+1491,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,without further randomization,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21862331_element.csv
+694,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a total of 1209 subjects,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15736290_element.csv
+739,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,had significant cardiac insufficiency,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15911866_element.csv
+876,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ensures fixation of the injected cells in the myocardium,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16758644_element.csv
+38,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,treatment with 80 mg d of atorvastatin initiated during the acute phase of unstable angina or non q wave acute mi reduces the risk of early recurrent ischemic events primarily recurrent symptomatic ischemia requiring hospitalization,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11277825_element.csv
+637,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,instructed to take their medication in the morning after breakfast,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15476904_element.csv
+296,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,patients with coronary artery disease cad,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\12520156_element.csv
+158,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,all women with obstetric or medical indications,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11814497_element.csv
+1629,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ami related changes in the numerical yield of bmscs resulted in failing to improve myocardial viability and function in human clinical setting,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23651816_element.csv
+816,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,documented coronary disease,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16531616_element.csv
+815,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,documented cerebrovascular disease,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16531616_element.csv
+412,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,baseline characteristics were similar,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14586349_element.csv
+1471,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,intracoronary cell infusion was performed,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\21148540_element.csv
+482,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,did so within 24 hours of the administration,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15104606_element.csv
+959,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,receive an intracoronary infusion of progenitor cells derived from bone marrow bmc or placebo medium,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16990384_element.csv
+653,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,type ii diabetes mellitus for x6 months,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15647778_element.csv
+995,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27 consecutive patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\17572255_element.csv
+394,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,women were excluded if they were in active labor three or more contractions in a 10 minute period had any contraindication to vaginal delivery previous uterine surgery active maternal bleeding chorioamnionitis major fetal anomalies contraindication to prostaglandin use or were younger than 19 years,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\14526301_element.csv
+1344,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,the control group c received optimized therapy only,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20042424_element.csv
+1525,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,acute mi,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\22194152_element.csv
+1706,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,eighty patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+956,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,acute pci,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\16990383_element.csv
+1704,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,st segment elevation 1 mm in two consecutive leads in the limb leads or 2 mm in the precordial leads,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\24431901_element.csv
+1635,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cet essai clinique randomis n ayant pas t men l insu portait sur,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\23756271_element.csv
+711,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,continuous electronic fhr,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\15746667_element.csv
+1413,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,reduction of cardiovascular events after administration of fluvastatin in first line therapy of acs patients treated with primary pci or early invasive strategy,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\20500832_element.csv
+90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3000 patients,F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement\11519503_element.csv
