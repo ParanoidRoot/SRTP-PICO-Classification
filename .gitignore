@@ -6,3 +6,4 @@ paranoid_root/bert/models/
 paranoid_root/bert/.vscode/
 .idea/
 __pycache__/
+*.pyc
