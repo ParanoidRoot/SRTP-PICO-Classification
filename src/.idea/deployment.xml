@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jiaying17@223.3.68.231:22">
     <serverData>
       <paths name="IRC">
         <serverdata>
@@ -16,13 +16,14 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="pico">
+      <paths name="jiaying17@223.3.68.231:22">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/pycharm_project_655" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
