@@ -1,3 +1,7 @@
 p threshold = 0.346 correctness = 0.960
 i threshold = 0.243 correctness = 0.963
 o threshold = 0.281 correctness = 0.969
+
+patients with psoriasis n 15 treated identically
+and healthy subjects not receiving any therapy n 15 served as controls
+0.561441302	0.665530682	0.014572811	1	1	0

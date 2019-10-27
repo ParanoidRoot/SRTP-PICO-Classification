@@ -1,0 +1,285 @@
+10/26/2019 23:38:30 - INFO - root -   {'run_text': 'PICO-Classification-By-Bert', 'train_size': -1, 'val_size': -1, 'log_path': WindowsPath('logs/fine_grained'), 'full_data_dir': WindowsPath('data/fine_grained'), 'data_dir': WindowsPath('data/fine_grained'), 'task_name': 'PICO-Classification', 'no_cuda': False, 'bert_model': WindowsPath('pretrained'), 'output_dir': WindowsPath('models/fine_grained/output'), 'max_seq_length': 15, 'do_train': True, 'do_eval': True, 'do_lower_case': True, 'train_batch_size': 8, 'eval_batch_size': 16, 'learning_rate': 5e-05, 'num_train_epochs': 20, 'warmup_proportion': 0.0, 'local_rank': -1, 'seed': 42, 'gradient_accumulation_steps': 1, 'optimize_on_cpu': False, 'fp16': True, 'fp16_opt_level': 'O1', 'weight_decay': 0.0, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'max_steps': -1, 'warmup_steps': 500, 'logging_steps': 50, 'eval_all_checkpoints': True, 'overwrite_output_dir': True, 'overwrite_cache': False, 'loss_scale': 128, 'model_name': 'bert-base-uncased', 'model_type': 'bert', 'multi_gpu': False}
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   Model name 'pretrained' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc). Assuming 'pretrained' is a path or url to a directory containing tokenizer files.
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   Didn't find file pretrained\added_tokens.json. We won't load it.
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   Didn't find file pretrained\special_tokens_map.json. We won't load it.
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   Didn't find file pretrained\tokenizer_config.json. We won't load it.
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   loading file pretrained\vocab.txt
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   loading file None
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   loading file None
+10/26/2019 23:38:30 - INFO - transformers.tokenization_utils -   loading file None
+10/26/2019 23:38:30 - INFO - root -   Loading features from cached file data\fine_grained\cache\cached_bert_train_multi_label_15
+10/26/2019 23:38:30 - INFO - root -   Loading features from cached file data\fine_grained\cache\cached_bert_dev_multi_label_15
+10/26/2019 23:38:30 - INFO - pytorch_transformers.modeling_utils -   loading configuration file pretrained\config.json
+10/26/2019 23:38:30 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 20,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+10/26/2019 23:38:30 - INFO - pytorch_transformers.modeling_utils -   loading weights file pretrained\pytorch_model.bin
+10/26/2019 23:38:37 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForMultiLabelSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+10/26/2019 23:38:37 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForMultiLabelSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+10/26/2019 23:38:43 - INFO - root -   ***** Running training *****
+10/26/2019 23:38:43 - INFO - root -     Num examples = 1808
+10/26/2019 23:38:43 - INFO - root -     Num Epochs = 20
+10/26/2019 23:38:43 - INFO - root -     Total train batch size (w. parallel, distributed & accumulation) = 8
+10/26/2019 23:38:43 - INFO - root -     Gradient Accumulation steps = 1
+10/26/2019 23:38:43 - INFO - root -     Total optimization steps = 4520
+10/26/2019 23:41:06 - INFO - root -   Running evaluation
+10/26/2019 23:41:06 - INFO - root -     Num examples = 362
+10/26/2019 23:41:06 - INFO - root -     Batch size = 16
+10/26/2019 23:41:09 - INFO - root -   eval_loss after epoch 1: 0.6692737548247628: 
+10/26/2019 23:41:09 - INFO - root -   eval_accuracy_thresh after epoch 1: 0.5839778780937195: 
+10/26/2019 23:41:09 - INFO - root -   eval_roc_auc after epoch 1: 0.5371783834230831: 
+10/26/2019 23:41:09 - INFO - root -   eval_fbeta after epoch 1: 0.20997761189937592: 
+10/26/2019 23:41:09 - INFO - root -   eval_accuracy_multilabel after epoch 1: 0.08839779005524862: 
+10/26/2019 23:41:09 - INFO - root -   lr after epoch 1: 2.26e-05
+10/26/2019 23:41:09 - INFO - root -   train_loss after epoch 1: 0.738486941409322
+10/26/2019 23:41:09 - INFO - root -   
+
+10/26/2019 23:43:11 - INFO - root -   Running evaluation
+10/26/2019 23:43:11 - INFO - root -     Num examples = 362
+10/26/2019 23:43:11 - INFO - root -     Batch size = 16
+10/26/2019 23:43:12 - INFO - root -   eval_loss after epoch 2: 0.5335091870764027: 
+10/26/2019 23:43:12 - INFO - root -   eval_accuracy_thresh after epoch 2: 0.8749999403953552: 
+10/26/2019 23:43:12 - INFO - root -   eval_roc_auc after epoch 2: 0.5166152334527347: 
+10/26/2019 23:43:12 - INFO - root -   eval_fbeta after epoch 2: 0.2261982560157776: 
+10/26/2019 23:43:12 - INFO - root -   eval_accuracy_multilabel after epoch 2: 0.06906077348066299: 
+10/26/2019 23:43:12 - INFO - root -   lr after epoch 2: 4.52e-05
+10/26/2019 23:43:12 - INFO - root -   train_loss after epoch 2: 0.6031877567282821
+10/26/2019 23:43:12 - INFO - root -   
+
+10/26/2019 23:45:14 - INFO - root -   Running evaluation
+10/26/2019 23:45:14 - INFO - root -     Num examples = 362
+10/26/2019 23:45:14 - INFO - root -     Batch size = 16
+10/26/2019 23:45:15 - INFO - root -   eval_loss after epoch 3: 0.4008718780849291: 
+10/26/2019 23:45:15 - INFO - root -   eval_accuracy_thresh after epoch 3: 0.9494474530220032: 
+10/26/2019 23:45:15 - INFO - root -   eval_roc_auc after epoch 3: 0.6501253634905266: 
+10/26/2019 23:45:15 - INFO - root -   eval_fbeta after epoch 3: 0.2697127163410187: 
+10/26/2019 23:45:16 - INFO - root -   eval_accuracy_multilabel after epoch 3: 0.06629834254143646: 
+10/26/2019 23:45:16 - INFO - root -   lr after epoch 3: 4.975851106663629e-05
+10/26/2019 23:45:16 - INFO - root -   train_loss after epoch 3: 0.47055267298643566
+10/26/2019 23:45:16 - INFO - root -   
+
+10/26/2019 23:47:16 - INFO - root -   Running evaluation
+10/26/2019 23:47:16 - INFO - root -     Num examples = 362
+10/26/2019 23:47:16 - INFO - root -     Batch size = 16
+10/26/2019 23:47:18 - INFO - root -   eval_loss after epoch 4: 0.331373217313186: 
+10/26/2019 23:47:18 - INFO - root -   eval_accuracy_thresh after epoch 4: 0.9494474530220032: 
+10/26/2019 23:47:18 - INFO - root -   eval_roc_auc after epoch 4: 0.765902958959952: 
+10/26/2019 23:47:18 - INFO - root -   eval_fbeta after epoch 4: 0.3457149565219879: 
+10/26/2019 23:47:18 - INFO - root -   eval_accuracy_multilabel after epoch 4: 0.31767955801104975: 
+10/26/2019 23:47:18 - INFO - root -   lr after epoch 4: 4.876430917495718e-05
+10/26/2019 23:47:18 - INFO - root -   train_loss after epoch 4: 0.3736718836347614
+10/26/2019 23:47:18 - INFO - root -   
+
+10/26/2019 23:49:16 - INFO - root -   Running evaluation
+10/26/2019 23:49:16 - INFO - root -     Num examples = 362
+10/26/2019 23:49:16 - INFO - root -     Batch size = 16
+10/26/2019 23:49:18 - INFO - root -   eval_loss after epoch 5: 0.286647432524225: 
+10/26/2019 23:49:18 - INFO - root -   eval_accuracy_thresh after epoch 5: 0.9494474530220032: 
+10/26/2019 23:49:18 - INFO - root -   eval_roc_auc after epoch 5: 0.7865104273487966: 
+10/26/2019 23:49:18 - INFO - root -   eval_fbeta after epoch 5: 0.2615101635456085: 
+10/26/2019 23:49:18 - INFO - root -   eval_accuracy_multilabel after epoch 5: 0.2596685082872928: 
+10/26/2019 23:49:18 - INFO - root -   lr after epoch 5: 4.7030739562350713e-05
+10/26/2019 23:49:18 - INFO - root -   train_loss after epoch 5: 0.3159067835164281
+10/26/2019 23:49:18 - INFO - root -   
+
+10/26/2019 23:51:15 - INFO - root -   Running evaluation
+10/26/2019 23:51:15 - INFO - root -     Num examples = 362
+10/26/2019 23:51:15 - INFO - root -     Batch size = 16
+10/26/2019 23:51:17 - INFO - root -   eval_loss after epoch 6: 0.25505542495976324: 
+10/26/2019 23:51:17 - INFO - root -   eval_accuracy_thresh after epoch 6: 0.9494474530220032: 
+10/26/2019 23:51:17 - INFO - root -   eval_roc_auc after epoch 6: 0.7985922641902408: 
+10/26/2019 23:51:17 - INFO - root -   eval_fbeta after epoch 6: 0.1961326003074646: 
+10/26/2019 23:51:17 - INFO - root -   eval_accuracy_multilabel after epoch 6: 0.2596685082872928: 
+10/26/2019 23:51:17 - INFO - root -   lr after epoch 6: 4.461173796093119e-05
+10/26/2019 23:51:17 - INFO - root -   train_loss after epoch 6: 0.27685299120118134
+10/26/2019 23:51:17 - INFO - root -   
+
+10/26/2019 23:53:14 - INFO - root -   Running evaluation
+10/26/2019 23:53:14 - INFO - root -     Num examples = 362
+10/26/2019 23:53:14 - INFO - root -     Batch size = 16
+10/26/2019 23:53:16 - INFO - root -   eval_loss after epoch 7: 0.23141869319521863: 
+10/26/2019 23:53:16 - INFO - root -   eval_accuracy_thresh after epoch 7: 0.9494474530220032: 
+10/26/2019 23:53:16 - INFO - root -   eval_roc_auc after epoch 7: 0.8042805232673684: 
+10/26/2019 23:53:16 - INFO - root -   eval_fbeta after epoch 7: 0.16574586927890778: 
+10/26/2019 23:53:16 - INFO - root -   eval_accuracy_multilabel after epoch 7: 0.2596685082872928: 
+10/26/2019 23:53:16 - INFO - root -   lr after epoch 7: 4.15825656243624e-05
+10/26/2019 23:53:16 - INFO - root -   train_loss after epoch 7: 0.24781070511161754
+10/26/2019 23:53:16 - INFO - root -   
+
+10/26/2019 23:55:14 - INFO - root -   Running evaluation
+10/26/2019 23:55:14 - INFO - root -     Num examples = 362
+10/26/2019 23:55:14 - INFO - root -     Batch size = 16
+10/26/2019 23:55:16 - INFO - root -   eval_loss after epoch 8: 0.21403762762961182: 
+10/26/2019 23:55:16 - INFO - root -   eval_accuracy_thresh after epoch 8: 0.9494474530220032: 
+10/26/2019 23:55:16 - INFO - root -   eval_roc_auc after epoch 8: 0.8109839324865534: 
+10/26/2019 23:55:16 - INFO - root -   eval_fbeta after epoch 8: 0.16850829124450684: 
+10/26/2019 23:55:16 - INFO - root -   eval_accuracy_multilabel after epoch 8: 0.26795580110497236: 
+10/26/2019 23:55:16 - INFO - root -   lr after epoch 8: 3.8037467760039024e-05
+10/26/2019 23:55:16 - INFO - root -   train_loss after epoch 8: 0.22614149056968436
+10/26/2019 23:55:16 - INFO - root -   
+
+10/26/2019 23:57:13 - INFO - root -   Running evaluation
+10/26/2019 23:57:13 - INFO - root -     Num examples = 362
+10/26/2019 23:57:13 - INFO - root -     Batch size = 16
+10/26/2019 23:57:15 - INFO - root -   eval_loss after epoch 9: 0.20089552195175833: 
+10/26/2019 23:57:15 - INFO - root -   eval_accuracy_thresh after epoch 9: 0.9494474530220032: 
+10/26/2019 23:57:15 - INFO - root -   eval_roc_auc after epoch 9: 0.8187197819931284: 
+10/26/2019 23:57:15 - INFO - root -   eval_fbeta after epoch 9: 0.15469613671302795: 
+10/26/2019 23:57:15 - INFO - root -   eval_accuracy_multilabel after epoch 9: 0.3287292817679558: 
+10/26/2019 23:57:15 - INFO - root -   lr after epoch 9: 3.408674132248692e-05
+10/26/2019 23:57:15 - INFO - root -   train_loss after epoch 9: 0.2103321664364992
+10/26/2019 23:57:15 - INFO - root -   
+
+10/26/2019 23:59:12 - INFO - root -   Running evaluation
+10/26/2019 23:59:12 - INFO - root -     Num examples = 362
+10/26/2019 23:59:12 - INFO - root -     Batch size = 16
+10/26/2019 23:59:14 - INFO - root -   eval_loss after epoch 10: 0.19077343590881513: 
+10/26/2019 23:59:14 - INFO - root -   eval_accuracy_thresh after epoch 10: 0.9494474530220032: 
+10/26/2019 23:59:14 - INFO - root -   eval_roc_auc after epoch 10: 0.8257431582696182: 
+10/26/2019 23:59:14 - INFO - root -   eval_fbeta after epoch 10: 0.18784530460834503: 
+10/26/2019 23:59:14 - INFO - root -   eval_accuracy_multilabel after epoch 10: 0.35911602209944754: 
+10/26/2019 23:59:14 - INFO - root -   lr after epoch 10: 2.985330339634069e-05
+10/26/2019 23:59:14 - INFO - root -   train_loss after epoch 10: 0.19856934414236946
+10/26/2019 23:59:14 - INFO - root -   
+
+10/27/2019 00:01:12 - INFO - root -   Running evaluation
+10/27/2019 00:01:12 - INFO - root -     Num examples = 362
+10/27/2019 00:01:12 - INFO - root -     Batch size = 16
+10/27/2019 00:01:14 - INFO - root -   eval_loss after epoch 11: 0.18328817901404007: 
+10/27/2019 00:01:14 - INFO - root -   eval_accuracy_thresh after epoch 11: 0.9494474530220032: 
+10/27/2019 00:01:14 - INFO - root -   eval_roc_auc after epoch 11: 0.8303836742870497: 
+10/27/2019 00:01:14 - INFO - root -   eval_fbeta after epoch 11: 0.1961326003074646: 
+10/27/2019 00:01:14 - INFO - root -   eval_accuracy_multilabel after epoch 11: 0.39502762430939226: 
+10/27/2019 00:01:14 - INFO - root -   lr after epoch 11: 2.546886693517696e-05
+10/27/2019 00:01:14 - INFO - root -   train_loss after epoch 11: 0.18974106976416258
+10/27/2019 00:01:14 - INFO - root -   
+
+10/27/2019 00:03:12 - INFO - root -   Running evaluation
+10/27/2019 00:03:12 - INFO - root -     Num examples = 362
+10/27/2019 00:03:12 - INFO - root -     Batch size = 16
+10/27/2019 00:03:14 - INFO - root -   eval_loss after epoch 12: 0.1777380549389383: 
+10/27/2019 00:03:14 - INFO - root -   eval_accuracy_thresh after epoch 12: 0.9516574144363403: 
+10/27/2019 00:03:14 - INFO - root -   eval_roc_auc after epoch 12: 0.8333979229567022: 
+10/27/2019 00:03:14 - INFO - root -   eval_fbeta after epoch 12: 0.28176796436309814: 
+10/27/2019 00:03:14 - INFO - root -   eval_accuracy_multilabel after epoch 12: 0.4281767955801105: 
+10/27/2019 00:03:14 - INFO - root -   lr after epoch 12: 2.1069842838634152e-05
+10/27/2019 00:03:14 - INFO - root -   train_loss after epoch 12: 0.18263475174924967
+10/27/2019 00:03:14 - INFO - root -   
+
+10/27/2019 00:05:11 - INFO - root -   Running evaluation
+10/27/2019 00:05:11 - INFO - root -     Num examples = 362
+10/27/2019 00:05:11 - INFO - root -     Batch size = 16
+10/27/2019 00:05:13 - INFO - root -   eval_loss after epoch 13: 0.17319279844346253: 
+10/27/2019 00:05:13 - INFO - root -   eval_accuracy_thresh after epoch 13: 0.9522098898887634: 
+10/27/2019 00:05:13 - INFO - root -   eval_roc_auc after epoch 13: 0.8359542808809945: 
+10/27/2019 00:05:13 - INFO - root -   eval_fbeta after epoch 13: 0.28176796436309814: 
+10/27/2019 00:05:13 - INFO - root -   eval_accuracy_multilabel after epoch 13: 0.43646408839779005: 
+10/27/2019 00:05:13 - INFO - root -   lr after epoch 13: 1.6793095864556466e-05
+10/27/2019 00:05:13 - INFO - root -   train_loss after epoch 13: 0.17710685024483014
+10/27/2019 00:05:13 - INFO - root -   
+
+10/27/2019 00:07:11 - INFO - root -   Running evaluation
+10/27/2019 00:07:11 - INFO - root -     Num examples = 362
+10/27/2019 00:07:11 - INFO - root -     Batch size = 16
+10/27/2019 00:07:12 - INFO - root -   eval_loss after epoch 14: 0.17010049133197122: 
+10/27/2019 00:07:12 - INFO - root -   eval_accuracy_thresh after epoch 14: 0.9533149003982544: 
+10/27/2019 00:07:12 - INFO - root -   eval_roc_auc after epoch 14: 0.8387779404773829: 
+10/27/2019 00:07:12 - INFO - root -   eval_fbeta after epoch 14: 0.3164518177509308: 
+10/27/2019 00:07:12 - INFO - root -   eval_accuracy_multilabel after epoch 14: 0.43646408839779005: 
+10/27/2019 00:07:12 - INFO - root -   lr after epoch 14: 1.2771686420462054e-05
+10/27/2019 00:07:12 - INFO - root -   train_loss after epoch 14: 0.1730452448920866
+10/27/2019 00:07:12 - INFO - root -   
+
+10/27/2019 00:09:10 - INFO - root -   Running evaluation
+10/27/2019 00:09:10 - INFO - root -     Num examples = 362
+10/27/2019 00:09:10 - INFO - root -     Batch size = 16
+10/27/2019 00:09:12 - INFO - root -   eval_loss after epoch 15: 0.16792225643344547: 
+10/27/2019 00:09:12 - INFO - root -   eval_accuracy_thresh after epoch 15: 0.9555248022079468: 
+10/27/2019 00:09:12 - INFO - root -   eval_roc_auc after epoch 15: 0.8385088501695627: 
+10/27/2019 00:09:12 - INFO - root -   eval_fbeta after epoch 15: 0.32473912835121155: 
+10/27/2019 00:09:12 - INFO - root -   eval_accuracy_multilabel after epoch 15: 0.4447513812154696: 
+10/27/2019 00:09:12 - INFO - root -   lr after epoch 15: 9.130730717964948e-06
+10/27/2019 00:09:12 - INFO - root -   train_loss after epoch 15: 0.17090973436041215
+10/27/2019 00:09:12 - INFO - root -   
+
+10/27/2019 00:11:09 - INFO - root -   Running evaluation
+10/27/2019 00:11:09 - INFO - root -     Num examples = 362
+10/27/2019 00:11:09 - INFO - root -     Batch size = 16
+10/27/2019 00:11:11 - INFO - root -   eval_loss after epoch 16: 0.16632837316264276: 
+10/27/2019 00:11:11 - INFO - root -   eval_accuracy_thresh after epoch 16: 0.9552485942840576: 
+10/27/2019 00:11:11 - INFO - root -   eval_roc_auc after epoch 16: 0.8424992964699486: 
+10/27/2019 00:11:11 - INFO - root -   eval_fbeta after epoch 16: 0.34960100054740906: 
+10/27/2019 00:11:11 - INFO - root -   eval_accuracy_multilabel after epoch 16: 0.4419889502762431: 
+10/27/2019 00:11:11 - INFO - root -   lr after epoch 16: 5.98350809121006e-06
+10/27/2019 00:11:11 - INFO - root -   train_loss after epoch 16: 0.16856162279712417
+10/27/2019 00:11:11 - INFO - root -   
+
+10/27/2019 00:13:08 - INFO - root -   Running evaluation
+10/27/2019 00:13:08 - INFO - root -     Num examples = 362
+10/27/2019 00:13:08 - INFO - root -     Batch size = 16
+10/27/2019 00:13:10 - INFO - root -   eval_loss after epoch 17: 0.1654461233512215: 
+10/27/2019 00:13:10 - INFO - root -   eval_accuracy_thresh after epoch 17: 0.9549723267555237: 
+10/27/2019 00:13:10 - INFO - root -   eval_roc_auc after epoch 17: 0.8447495989481232: 
+10/27/2019 00:13:10 - INFO - root -   eval_fbeta after epoch 17: 0.35512587428092957: 
+10/27/2019 00:13:10 - INFO - root -   eval_accuracy_multilabel after epoch 17: 0.4447513812154696: 
+10/27/2019 00:13:10 - INFO - root -   lr after epoch 17: 3.4279365904829526e-06
+10/27/2019 00:13:10 - INFO - root -   train_loss after epoch 17: 0.16721702881355202
+10/27/2019 00:13:10 - INFO - root -   
+
+10/27/2019 00:15:07 - INFO - root -   Running evaluation
+10/27/2019 00:15:07 - INFO - root -     Num examples = 362
+10/27/2019 00:15:07 - INFO - root -     Batch size = 16
+10/27/2019 00:15:09 - INFO - root -   eval_loss after epoch 18: 0.16490958954976953: 
+10/27/2019 00:15:09 - INFO - root -   eval_accuracy_thresh after epoch 18: 0.9555248022079468: 
+10/27/2019 00:15:09 - INFO - root -   eval_roc_auc after epoch 18: 0.8436110329411054: 
+10/27/2019 00:15:09 - INFO - root -   eval_fbeta after epoch 18: 0.36771026253700256: 
+10/27/2019 00:15:09 - INFO - root -   eval_accuracy_multilabel after epoch 18: 0.4447513812154696: 
+10/27/2019 00:15:09 - INFO - root -   lr after epoch 18: 1.5435265041849445e-06
+10/27/2019 00:15:09 - INFO - root -   train_loss after epoch 18: 0.1669636077321736
+10/27/2019 00:15:09 - INFO - root -   
+
+10/27/2019 00:17:06 - INFO - root -   Running evaluation
+10/27/2019 00:17:06 - INFO - root -     Num examples = 362
+10/27/2019 00:17:06 - INFO - root -     Batch size = 16
+10/27/2019 00:17:08 - INFO - root -   eval_loss after epoch 19: 0.16473453135594077: 
+10/27/2019 00:17:08 - INFO - root -   eval_accuracy_thresh after epoch 19: 0.9555248022079468: 
+10/27/2019 00:17:08 - INFO - root -   eval_roc_auc after epoch 19: 0.8438687952226732: 
+10/27/2019 00:17:08 - INFO - root -   eval_fbeta after epoch 19: 0.36341315507888794: 
+10/27/2019 00:17:08 - INFO - root -   eval_accuracy_multilabel after epoch 19: 0.4447513812154696: 
+10/27/2019 00:17:08 - INFO - root -   lr after epoch 19: 3.8890659280477747e-07
+10/27/2019 00:17:08 - INFO - root -   train_loss after epoch 19: 0.16608381910925418
+10/27/2019 00:17:08 - INFO - root -   
+
+10/27/2019 00:19:05 - INFO - root -   Running evaluation
+10/27/2019 00:19:05 - INFO - root -     Num examples = 362
+10/27/2019 00:19:05 - INFO - root -     Batch size = 16
+10/27/2019 00:19:07 - INFO - root -   eval_loss after epoch 20: 0.16470770343490268: 
+10/27/2019 00:19:07 - INFO - root -   eval_accuracy_thresh after epoch 20: 0.9555248022079468: 
+10/27/2019 00:19:07 - INFO - root -   eval_roc_auc after epoch 20: 0.8438230856430583: 
+10/27/2019 00:19:07 - INFO - root -   eval_fbeta after epoch 20: 0.36341315507888794: 
+10/27/2019 00:19:07 - INFO - root -   eval_accuracy_multilabel after epoch 20: 0.4447513812154696: 
+10/27/2019 00:19:07 - INFO - root -   lr after epoch 20: 0.0
+10/27/2019 00:19:07 - INFO - root -   train_loss after epoch 20: 0.1662310689885532
+10/27/2019 00:19:07 - INFO - root -   
+
+10/27/2019 00:19:07 - INFO - root -   Running evaluation
+10/27/2019 00:19:07 - INFO - root -     Num examples = 362
+10/27/2019 00:19:07 - INFO - root -     Batch size = 16

@@ -37,7 +37,7 @@ os.system('cls')
 print('Start'.center(25, '*'))
 
 # 配置文件的路径
-train_for = 'fine_grained'
+train_for = 'combined'
 DATA_PATH = Path('./data/%s/' % train_for)
 LABEL_PATH = Path('./labels/%s/' % train_for)
 MODEL_PATH = Path('./models/%s/' % train_for)
@@ -47,6 +47,14 @@ BERT_PRETRAINED_PATH = Path('./pretrained/')
 FINETUNED_PATH = None
 OUTPUT_PATH = MODEL_PATH / 'output'
 OUTPUT_PATH.mkdir(exist_ok=True)
+sentence_labels = ['p', 'i', 'o']
+fine_grained_labels = [
+    'posize', 'podisease', 'iprocedure', 'iss',
+    'opatient', 'otreatment', 'prdisease', 'pogender',
+    'idiagnostic', 'idiagnostictest', 'poage', 'pophyconditon',
+    'idisease', 'prss', 'poss', 'potreatment',
+    'poprocedure', 'poclinical', 'prbehavior', 'pomedhistory'
+]
 
 # 参数构建
 args = Box({
@@ -60,7 +68,7 @@ args = Box({
     "no_cuda": False,
     "bert_model": BERT_PRETRAINED_PATH,
     "output_dir": OUTPUT_PATH,
-    "max_seq_length": 15,  # 注意这里要修改
+    "max_seq_length": (15 if train_for == 'fine_grained' else 60),
     "do_train": True,
     "do_eval": True,
     "do_lower_case": True,
@@ -118,13 +126,9 @@ else:
     args.multi_gpu = False
 
 # 设定索要的标签
-label_cols = [
-    'posize', 'podisease', 'iprocedure', 'iss',
-    'opatient', 'otreatment', 'prdisease', 'pogender',
-    'idiagnostic', 'idiagnostictest', 'poage', 'pophyconditon',
-    'idisease', 'prss', 'poss', 'potreatment',
-    'poprocedure', 'poclinical', 'prbehavior', 'pomedhistory'
-]
+label_cols = (
+    sentence_labels if train_for == 'sentence' else fine_grained_labels
+)
 
 # 构建 databunch
 databunch = BertDataBunch(

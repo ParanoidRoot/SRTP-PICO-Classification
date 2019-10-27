@@ -206,13 +206,100 @@ def fine_grained_data_preparation():
                 labels_dict[current_label][index] = 1
 
 
+def method3():
+    # 构建出每一个句子可能的分类的属性
+    all_elements = get_all_elements(
+        r'F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement'
+    )
+    labels_dict = dict()
+    for element in all_elements:
+        if element.fine_grained_label not in labels_dict.keys():
+            labels_dict[element.fine_grained_label] = []
+    # 添加两列
+    labels_dict['text'] = []
+    labels_dict['file_path'] = []
+    # 获取所有的路径
+    paths = __CSVReader.get_csv_paths(
+        r'F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement'
+    )
+    # 遍历每一个文件
+    for path in paths:
+        elements = get_elements_by_one_csv_path(path)
+        current_csv_texts = dict()
+        for element in elements:
+            current_text = element.sentence
+            current_label = element.fine_grained_label
+            current_file_path = element.file_path
+            # current_masked_sentence = element.get_sentence_without_content()
+            # word_num = FastBertCSVWriter.count_word_num_of_a_string(
+            #     current_masked_sentence
+            # )
+            if current_text not in current_csv_texts.keys():
+                # 首先先加入到字典中去.
+                current_csv_texts[current_text] = (
+                    len(labels_dict['text'])
+                )
+                # 添加一条正确的句子的标签记录
+                for key in labels_dict.keys():
+                    if key == 'text':
+                        labels_dict[key].append(current_text)
+                    elif key == current_label:
+                        labels_dict[key].append(1)
+                    elif key == 'file_path':
+                        labels_dict[key].append(current_file_path)
+                    else:
+                        labels_dict[key].append(0)
+                # 添加一条没有关键子句的标签记录
+                # if (
+                #     current_masked_sentence is not None and
+                #     len(current_masked_sentence) > 5 and
+                #     word_num > 1
+                # ):
+                #     # 添加到字典中去, 防止重复子句
+                #     current_csv_texts[current_masked_sentence] = (
+                #         len(labels_dict['text'])
+                #     )
+                #     for key in labels_dict.keys():
+                #         if key == 'text':
+                #             labels_dict[key].append(current_masked_sentence)
+                #         elif key == 'file_path':
+                #             labels_dict[key].append(current_file_path)
+                #         else:
+                #             # 其余所有标签都为 0
+                #             labels_dict[key].append(0)
+            else:
+                # 当前的短语已经出现过了
+                index = current_csv_texts[current_text]
+                labels_dict[current_label][index] = 1
+                # if (
+                #     current_masked_sentence is not None and
+                #     len(current_masked_sentence) > 4 and
+                #     word_num > 1 and
+                #     current_masked_sentence not in labels_dict.keys()
+                # ):
+                #     # 将去掉短句的句子试图再加入到字典中去
+                #     current_csv_texts[current_masked_sentence] = (
+                #         len(labels_dict['text'])
+                #     )
+                #     for key in labels_dict.keys():
+                #         if key == 'text':
+                #             labels_dict[key].append(current_masked_sentence)
+                #         elif key == 'file_path':
+                #             labels_dict[key].append(current_file_path)
+                #         else:
+                #             # 其余所有标签都为 0
+                #             labels_dict[key].append(0)
+        ans_pd = pd.DataFrame(labels_dict)
+        ans_pd.to_csv('./ans/combined/result.csv')
+
+
 def parse_fine_grained_data():
     '''分析细粒度的分类.'''
-    original_data = pd.read_csv('./data/fine_grained/train.csv')
+    original_data = pd.read_csv('./data/combined/train.csv')
     # sample = original_data.sample(frac=0.2, random_state=None)
     # test = original_data.sample(frac=1.0, random_state=None)
-    # sample.to_csv('./data/fine_grained/val.csv')
-    # test.to_csv('./data/fine_grained/test.csv')
+    # sample.to_csv('./data/combined/val.csv')
+    # test.to_csv('./data/combined/test.csv')
     lengths = []
     for text in original_data['text']:
         lengths.append(FastBertCSVWriter.count_word_num_of_a_string(text))
@@ -224,7 +311,7 @@ def parse_fine_grained_data():
         temp[_lengths >= target_len] = 0
         return np.sum(temp) / temp.shape[0]
 
-    xs = np.array(list(range(5, 26)))
+    xs = np.array(list(range(20, 70)))
     ys = []
     for target_len in xs:
         overlap_rate = get_overlap_rate(lengths, target_len)
@@ -234,8 +321,8 @@ def parse_fine_grained_data():
     plt.xlabel('length')
     plt.ylabel('overlap rate')
     plt.title('fine grained labels')
-    plt.bar(xs, ys, color='green')
-    plt.savefig('./ans/fine_grained/overlap_rates')
+    plt.bar(xs, ys, color='green', width=0.5)
+    plt.savefig('./ans/combined/overlap_rates')
     plt.close()
 
 
@@ -252,4 +339,5 @@ if __name__ == '__main__':
     # # )
     # print('hello world')
     # fine_grained_data_preparation()
-    parse_fine_grained_data()
+    method3()
+    # parse_fine_grained_data()

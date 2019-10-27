@@ -4,19 +4,11 @@ import torch
 
 from box import Box
 import pandas as pd
-# import collections
 import os
-# from tqdm import tqdm, trange
 import sys
-# import random
-# import numpy as np
-# import apex
-# from sklearn.model_selection import train_test_split
-
 import datetime
 import logging
 
-# from fast_bert.modeling import BertForMultiLabelSequenceClassification
 from fast_bert.data_cls import BertDataBunch, InputExample, InputFeatures
 from fast_bert.data_cls import MultiLabelTextProcessor
 from fast_bert.data_cls import convert_examples_to_features
@@ -38,15 +30,25 @@ os.system('cls')
 print('Start'.center(25, '*'))
 
 # 配置文件的路径
-DATA_PATH = Path('./data/')
-LABEL_PATH = Path('./labels/')
-MODEL_PATH = Path('./models/')
-LOG_PATH = Path('./logs/')
+train_for = 'combined'
+DATA_PATH = Path('./data/%s/' % train_for)
+LABEL_PATH = Path('./labels/%s/' % train_for)
+MODEL_PATH = Path('./models/%s/' % train_for)
+LOG_PATH = Path('./logs/%s/' % train_for)
+ANS_PATH = Path('./ans/%s/' % train_for)
 model_state_dict = None
 BERT_PRETRAINED_PATH = Path('./pretrained/')
 FINETUNED_PATH = None
 OUTPUT_PATH = MODEL_PATH / 'output'
 OUTPUT_PATH.mkdir(exist_ok=True)
+sentence_labels = ['p', 'i', 'o']
+fine_grained_labels = [
+    'posize', 'podisease', 'iprocedure', 'iss',
+    'opatient', 'otreatment', 'prdisease', 'pogender',
+    'idiagnostic', 'idiagnostictest', 'poage', 'pophyconditon',
+    'idisease', 'prss', 'poss', 'potreatment',
+    'poprocedure', 'poclinical', 'prbehavior', 'pomedhistory'
+]
 
 # 参数构建
 args = Box({
@@ -60,7 +62,7 @@ args = Box({
     "no_cuda": False,
     "bert_model": BERT_PRETRAINED_PATH,
     "output_dir": OUTPUT_PATH,
-    "max_seq_length": 60,  # 注意这里要修改
+    "max_seq_length": (15 if train_for == 'fine_grained' else 60),
     "do_train": True,
     "do_eval": True,
     "do_lower_case": True,
@@ -118,7 +120,9 @@ else:
     args.multi_gpu = False
 
 # 设定索要的标签
-label_cols = ['p', 'i', 'o']
+label_cols = (
+    sentence_labels if train_for == 'sentence' else fine_grained_labels
+)
 
 # 开始构建预测模型
 predictor = BertClassificationPredictor(
@@ -131,20 +135,30 @@ predictor = BertClassificationPredictor(
 
 # 获取测试数据
 output = predictor.predict_batch(
-    list(pd.read_csv("./data/test.csv")['text'].values)
+    list(
+        pd.read_csv(
+            str(DATA_PATH.joinpath('test.csv').absolute())
+        )['text'].values
+    )
 )
 
 # 将预测结果输出
-pd.DataFrame(output).to_csv('./data/output_bert.csv')
+pd.DataFrame(output).to_csv(
+    str(DATA_PATH.joinpath('output_bert.csv').absolute())
+)
 
 # 预测结果读入
-results = pd.read_csv('./data/output_bert.csv')
+results = pd.read_csv(
+    str(DATA_PATH.joinpath('output_bert.csv').absolute())
+)
 
 # 预测结果构成一个 pd 对象
 preds = pd.DataFrame([{item[0]: item[1] for item in pred} for pred in output])
 print(preds.head())
 
-test_df = pd.read_csv("./data/test.csv")
+test_df = pd.read_csv(
+    str(DATA_PATH.joinpath('test.csv').absolute())
+)
 print(test_df.head())
 output_df = pd.merge(
     test_df, preds, how='left',
@@ -152,9 +166,15 @@ output_df = pd.merge(
 )
 
 output_df.to_csv(
-    './data/output_bert.csv'
+    str(
+        ANS_PATH.joinpath('ans.csv').absolute()
+    )
 )
 
 print(''.center(31, '*'))
-final_pd = pd.read_csv('./data/output_bert.csv')
+final_pd = pd.read_csv(
+    str(
+        ANS_PATH.joinpath('ans.csv').absolute()
+    )
+)
 print(final_pd.head())

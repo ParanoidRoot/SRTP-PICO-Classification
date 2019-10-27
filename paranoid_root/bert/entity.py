@@ -76,3 +76,7 @@ class PICOElement(object):
             replace('diagnositc', 'diagnostic').replace('.', '')
         )
         return ans
+
+    def get_sentence_without_content(self):
+        temp = self.sentence.replace(self.content, '').replace('  ', ' ').strip()
+        return temp
