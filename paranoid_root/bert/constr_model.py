@@ -37,7 +37,7 @@ os.system('cls')
 print('Start'.center(25, '*'))
 
 # 配置文件的路径
-train_for = 'combined'
+train_for = 'final'
 DATA_PATH = Path('./data/%s/' % train_for)
 LABEL_PATH = Path('./labels/%s/' % train_for)
 MODEL_PATH = Path('./models/%s/' % train_for)
@@ -75,7 +75,7 @@ args = Box({
     "train_batch_size": 8,
     "eval_batch_size": 16,
     "learning_rate": 5e-5,
-    "num_train_epochs": 20,
+    "num_train_epochs": 30,
     "warmup_proportion": 0.0,
     "local_rank": -1,
     "seed": 42,

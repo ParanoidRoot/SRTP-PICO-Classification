@@ -133,9 +133,12 @@ class FastBertCSVWriter(object):
         for text in texts:
             seq_len_counter.append(cls.count_word_num_of_a_string(text))
         # from matplotlib import pyplot as plt
-        # plt.hist(seq_len_counter)
-        # plt.show()
-        seq_len = 60
+        plt.xlabel('sentence length')
+        plt.ylabel('sentence length rates')
+        plt.title('pre-processed sentence length distribution')
+        plt.hist(seq_len_counter, 50, normed=1, facecolor='blue', alpha=0.5)
+        plt.show()
+        # seq_len = 60
         
         def count_where_smaller(seq, thred):
             ans = 0
@@ -143,7 +146,7 @@ class FastBertCSVWriter(object):
                 if what < thred:
                     ans += 1
             return ans / len(seq)
-        print(count_where_smaller(seq_len_counter, seq_len))
+        # print(count_where_smaller(seq_len_counter, seq_len))
 
 
     @classmethod
@@ -295,35 +298,35 @@ def method3():
 
 def parse_fine_grained_data():
     '''分析细粒度的分类.'''
-    original_data = pd.read_csv('./data/combined/train.csv')
-    # sample = original_data.sample(frac=0.2, random_state=None)
-    # test = original_data.sample(frac=1.0, random_state=None)
-    # sample.to_csv('./data/combined/val.csv')
-    # test.to_csv('./data/combined/test.csv')
-    lengths = []
-    for text in original_data['text']:
-        lengths.append(FastBertCSVWriter.count_word_num_of_a_string(text))
-    lengths = np.array(lengths)
+    original_data = pd.read_csv('./data/final/train.csv')
+    sample = original_data.sample(frac=0.2, random_state=None)
+    test = original_data.sample(frac=1.0, random_state=None)
+    sample.to_csv('./data/final/val.csv')
+    test.to_csv('./data/final/test.csv')
+    # lengths = []
+    # for text in original_data['text']:
+    #     lengths.append(FastBertCSVWriter.count_word_num_of_a_string(text))
+    # lengths = np.array(lengths)
 
-    def get_overlap_rate(_lengths, target_len):
-        temp = _lengths.copy()
-        temp[_lengths < target_len] = 1
-        temp[_lengths >= target_len] = 0
-        return np.sum(temp) / temp.shape[0]
+    # def get_overlap_rate(_lengths, target_len):
+    #     temp = _lengths.copy()
+    #     temp[_lengths < target_len] = 1
+    #     temp[_lengths >= target_len] = 0
+    #     return np.sum(temp) / temp.shape[0]
 
-    xs = np.array(list(range(20, 70)))
-    ys = []
-    for target_len in xs:
-        overlap_rate = get_overlap_rate(lengths, target_len)
-        ys.append(overlap_rate)
-    ys = np.array(ys)
-    plt.figure()
-    plt.xlabel('length')
-    plt.ylabel('overlap rate')
-    plt.title('fine grained labels')
-    plt.bar(xs, ys, color='green', width=0.5)
-    plt.savefig('./ans/combined/overlap_rates')
-    plt.close()
+    # xs = np.array(list(range(20, 70)))
+    # ys = []
+    # for target_len in xs:
+    #     overlap_rate = get_overlap_rate(lengths, target_len)
+    #     ys.append(overlap_rate)
+    # ys = np.array(ys)
+    # plt.figure()
+    # plt.xlabel('length')
+    # plt.ylabel('overlap rate')
+    # plt.title('fine grained labels')
+    # plt.bar(xs, ys, color='green', width=0.5)
+    # plt.savefig('./ans/combined/overlap_rates')
+    # plt.close()
 
 
 if __name__ == '__main__':
@@ -332,12 +335,13 @@ if __name__ == '__main__':
     #     1.0,
     #     tag='2'
     # )
-    # # FastBertCSVWriter.count_seq_len(
-    # #     __CSVReader.get_csv_paths(
-    # #         r'F:\PythonProjects\TestFastBert\PICOElement'
-    # #     )
-    # # )
+    FastBertCSVWriter.count_seq_len(
+        __CSVReader.get_csv_paths(
+            r'F:\PythonProjects\SRTP-PICO-Classification\data\PICOElement'
+        )
+    )
     # print('hello world')
     # fine_grained_data_preparation()
-    method3()
+    # method3()
     # parse_fine_grained_data()
+    # get_all_elements('')

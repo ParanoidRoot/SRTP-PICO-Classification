@@ -350,11 +350,6 @@ def fuck():
 
     # 将句子分析为一个 array
     def parse_sentence(sentence):
-        print()
-        print()
-        print()
-        print()
-        print()
         # final dict
         input_dict = dict()
         # p, i, o dict
@@ -399,11 +394,20 @@ def fuck():
         second_big_value = temp[second_big_index]
         # 返回输出标签的列表
         return (
-            (first_big_value, Record.labels_sequence[first_big_index]),
-            (second_big_value, Record.labels_sequence[second_big_index])
+            (
+                first_big_index, first_big_value,
+                Record.labels_sequence[first_big_index]
+            ), (
+                second_big_index, second_big_value,
+                Record.labels_sequence[second_big_index]
+            )
         )
 
     print(parse_sentence(get_inputted_sentences()[0]))
+
+    # 获取到今天训练的直接预测
+    fine_grained_sentence_predictor = get_predictor('final')
+    print()
 
 
 if __name__ == "__main__":
