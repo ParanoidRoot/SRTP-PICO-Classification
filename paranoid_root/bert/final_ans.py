@@ -29,9 +29,13 @@ def get_predictor(train_for):
 
 
 # 设置阈值
-p_threshold = 0.346
-i_threshold = 0.243
-o_threshold = 0.281
+thresholds = dict(
+    {
+        'p': 0.45,
+        'i': 0.53,
+        'o': 0.45
+    }
+)
 fine_grained_labels = [
     'posize',
     'podisease',
@@ -104,6 +108,16 @@ def get_correct_fine_grained_index(label, curr_cfg_array):
     return positions
 
 
+def get_max_index(a: np.array, _from, _included_to):
+    '''从一个数组中的某个范围找到最大值的下标.'''
+    max_index, max_value = None, -1.0
+    for i in range(_from, _included_to + 1):
+        if a[i] > max_value:
+            max_value = a[i]
+            max_index = i
+    return max_index
+
+
 def judge_right(
     label: str, threshold: float,
     curr_ppio_array: np.array, curr_cpio_array: np.array,
@@ -123,7 +137,7 @@ def judge_right(
             temp = list(fine_grained_label_position_dict[label])
             biggest_index = curr_pfg_array[
                 min(temp): max(temp) + 1
-            ].argmax()
+            ].argmax() + min(temp)
             return biggest_index in cpio_indexes
 
 
@@ -218,5 +232,85 @@ def main():
     print('finish'.center(31, '*'))
 
 
+def get_sentence_label_array(
+    text,
+    label_list: list,
+    predictor: BertClassificationPredictor
+):
+    '''输入一个句子, 输出 pio 的分类.'''
+    ans_list = predictor.predict(text)
+    ans_array = np.zeros(len(label_list))
+    for ans in ans_list:
+        label = ans[0]
+        index = label_list.index(label)
+        ans_array[index] = ans[1]
+    return ans_array
+
+
+def get_pio_labels(pio_array):
+    ans_list = []
+    for i, v in enumerate(pio_labels):
+        if pio_array[i] > thresholds[v]:
+            ans_list.append(v)
+    return ans_list
+
+
+def get_fg_labels(curr_pio_labels, fg_array):
+    '''获取到分类分出的结果.'''
+    fg_labels = []
+    for pio_label in curr_pio_labels:
+        fg_label_index_set = fine_grained_label_position_dict[pio_label]
+        min_index = min(fg_label_index_set)
+        max_index = max(fg_label_index_set)
+        temp = fg_array[min_index: max_index + 1]
+        where = temp.argmax() + min_index
+        fg_labels.append(
+            fine_grained_labels[where]
+        )
+    return fg_labels
+
+
+def get_sentences():
+    return [
+        "this prospective double blind study was undertaken to compare "
+        "the safety and efﬁcacy of oral vs vaginal misoprostol in equivalent doses "
+        "50 mg for induction of labour",
+        "A total of 128 term pregnancies with indication for induction of "
+        "labour were allocated to two groups to receive 50 mg misoprostol "
+        "orally or vaginally, every 4 h until adequate contractions were achieved "
+        "or a maximum of 200 mg dose",
+        "Induction to delivery interval was signiﬁcantly shorter in the "
+        "vaginal group compared with the oral group 14.6 h vs 22.5 h p50.001",
+        "There was no signiﬁcant difference between the groups with respect "
+        "to mode of delivery neonatal outcome and maternal side effects"
+    ]
+
+
+def test():
+    print('start'.center(31, '*'))
+    sentence_predictor = get_predictor('sentence')
+    fine_grained_predicor = get_predictor('final')
+
+    sentences = get_sentences()
+    for i, sentence in enumerate(sentences):
+        print((' %d ' % i).center(31, '*'))
+        print(sentence)
+        pio_array = get_sentence_label_array(
+            sentence, pio_labels, sentence_predictor
+        )
+        fg_array = get_sentence_label_array(
+            sentence, fine_grained_labels, fine_grained_predicor
+        )
+        current_pio_labels = get_pio_labels(pio_array)
+        print('pios: ')
+        print(pio_array)
+        print(current_pio_labels)
+        print('fgs: ')
+        print(fg_array)
+        print(get_fg_labels(current_pio_labels, fg_array))
+        print()
+
+
 if __name__ == "__main__":
     main()
+    # test()
