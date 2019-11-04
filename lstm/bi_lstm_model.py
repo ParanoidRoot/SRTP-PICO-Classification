@@ -47,14 +47,14 @@ for i in range(len(pico_elements)):
 '''创建lstm模型'''
 
 # first way attention
-def attention_3d_block(inputs):
-    # input_dim = int(inputs.shape[2])
-    a = Permute((2, 1))(inputs)
-    a = Dense(TIME_STEPS, activation='softmax')(a)
-    a_probs = Permute((2, 1), name='attention_vec')(a)
-    # output_attention_mul = merge([inputs, a_probs], name='attention_mul', mode='mul')
-    output_attention_mul = multiply([inputs, a_probs], name='attention_mul')
-    return output_attention_mul
+# def attention_3d_block(inputs):
+#     # input_dim = int(inputs.shape[2])
+#     a = Permute((2, 1))(inputs)
+#     a = Dense(TIME_STEPS, activation='softmax')(a)
+#     a_probs = Permute((2, 1), name='attention_vec')(a)
+#     # output_attention_mul = merge([inputs, a_probs], name='attention_mul', mode='mul')
+#     output_attention_mul = multiply([inputs, a_probs], name='attention_mul')
+#     return output_attention_mul
 
 
 def create_lstm_model():
@@ -70,20 +70,17 @@ def create_lstm_model():
     # 模型第二层为BiLSTM,也可以尝试一下GRU，但是BiLSTM效果较好
     model.add(Bidirectional(LSTM(units=32, return_sequences=True)))
 
-    # # 模型第三层为LSTM
-    # model.add(LSTM(units=16, return_sequences=False))
+    # 模型第三层为LSTM
+    model.add(LSTM(units=16, return_sequences=False))
 
-    # 模型第二层为BiLSTM,也可以尝试一下GRU，但是BiLSTM效果较好
-    model.add(Bidirectional(LSTM(units=32, return_sequences=True)))
+    # #若只使用bilstm则需要flatten
+    # model.add(Flatten())
 
-    #若只使用bilstm则需要flatten
-    model.add(Flatten())
+    # 通过sigmoid函数进行分类
+    model.add(Dense(1, activation='sigmoid'))
 
-    # # 通过sigmoid函数进行分类,效果不是很好
-    # model.add(Dense(1, activation='sigmoid'))
-
-    # 通过tahn函数进行分类
-    model.add(Dense(1, activation='tanh'))
+    # # 通过tahn函数进行分类
+    # model.add(Dense(1, activation='tanh'))
 
     # 使用adam以1e-4的learning rate进行优化
     optimizer = Adam(lr=1e-4)
